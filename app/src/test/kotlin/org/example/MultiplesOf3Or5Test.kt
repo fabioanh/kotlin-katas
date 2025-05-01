@@ -10,7 +10,7 @@ class MultiplesOf3Or5Test {
         // given
         val input = 0
         // when
-        val result = org.example.multiplesOf3Or5(input)
+        val result = multiplesOf3Or5(input)
         // then
         assertEquals(0, result)
     }
@@ -20,7 +20,7 @@ class MultiplesOf3Or5Test {
         // given
         val input = 10
         // when
-        val result = org.example.multiplesOf3Or5(input)
+        val result = multiplesOf3Or5(input)
         // then
         assertEquals(23, result)
     }
@@ -30,7 +30,7 @@ class MultiplesOf3Or5Test {
         // given
         val input = -6
         // when
-        val result = org.example.multiplesOf3Or5(input)
+        val result = multiplesOf3Or5(input)
         // then
         assertEquals(0, result)
     }
